@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="defect" verbose="1">
+    <test name="Create Defect">
+        <classes>
+            <class name="com.vention.automation.test.ui.defect.CreateDefectTest">
+                <methods>
+                    <include name="createDefect"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

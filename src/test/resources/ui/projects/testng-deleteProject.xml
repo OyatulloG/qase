@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="projects" verbose="1">
+    <test name="Delete Project Test">
+        <classes>
+            <class name="com.vention.automation.test.ui.projects.DeleteProjectTest">
+                <methods>
+                    <include name="deleteProject"/>
+                    <include name="openProject"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

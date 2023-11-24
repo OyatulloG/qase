@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testcase" verbose="1">
+    <test name="Create Test Case with required fields">
+        <classes>
+            <class name="com.vention.automation.test.ui.testcase.CreateTestCaseWithRequiredFieldsTest">
+                <methods>
+                    <include name="createTestCaseWithRequiredFields"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="authorization" verbose="1">
+    <test name="all">
+        <classes>
+            <class name="com.vention.automation.test.ui.authorization.LoginWithRegisteredEmailAndInvalidPasswordTest" />
+            <class name="com.vention.automation.test.ui.authorization.LoginWithRegisteredEmailAndValidPasswordTest" />
+            <class name="com.vention.automation.test.ui.authorization.LoginWithRegisteredEmailAndWeakPasswordTest" />
+            <class name="com.vention.automation.test.ui.authorization.LoginWithUnregisteredEmailAndInvalidPasswordTest" />
+            <class name="com.vention.automation.test.ui.authorization.SignUpWithUnregisteredEmailAndWeakPasswordTest" />
+        </classes>
+    </test>
+</suite>

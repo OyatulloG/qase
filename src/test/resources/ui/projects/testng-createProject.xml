@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="projects" verbose="1">
+    <test name="Create Project Test">
+        <classes>
+            <class name="com.vention.automation.test.ui.projects.CreateProjectTest">
+                <methods>
+                    <include name="createProject"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
